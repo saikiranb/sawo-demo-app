@@ -3,6 +3,7 @@ import Sawo from 'sawo'
 
 const Login = () => {
     const [isLogin, setIsLogin] = useState(false)
+    console.log(isLogin)
     useEffect(() => {
         var config = {
             // should be same as the id of the container created on 3rd step
